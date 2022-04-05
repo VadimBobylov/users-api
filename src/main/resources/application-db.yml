@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://${DB_CONNECTION_USERNAME:root}:${DB_CONNECTION_PASSWORD:example}@${DB_HOST:localhost}:${DB_PORT:27017}/
+      database: ${DB_NAME:users-api}
